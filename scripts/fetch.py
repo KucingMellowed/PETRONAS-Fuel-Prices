@@ -24,16 +24,16 @@ def extract_price(label):
 data = {
     "last_updated": datetime.now().strftime("%Y-%m-%d"),
     "RON95": {
-        "price": extract_price("RON95"),
-        "unit": "RM/litre"
+        "Price": extract_price("RON95"),
+        "Unit": "RM/litre"
     },
     "RON97": {
-        "price": extract_price("RON97"),
-        "unit": "RM/litre"
+        "Price": extract_price("RON97"),
+        "Unit": "RM/litre"
     },
     "Diesel": {
-        "price": extract_price("Diesel B10/B20"),
-        "unit": "RM/litre"
+        "Price": extract_price("Diesel B10/B20"),
+        "Unit": "RM/litre"
     }
 }
 
