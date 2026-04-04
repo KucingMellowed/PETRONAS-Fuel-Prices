@@ -41,4 +41,4 @@ data = {
 with open("price.json", "w") as f:
     json.dump(data, f, indent=4)
 
-print("Updated fuel.json")
+print("Updated price.json")
