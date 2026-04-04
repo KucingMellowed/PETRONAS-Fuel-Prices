@@ -46,5 +46,5 @@ jobs:
           DIESEL=$(jq -r '.Diesel.price' price.json)
           curl -H "Content-Type: application/json" \
                -X POST \
-               -d "{\"content\": \"Latest Fuel Prices:\\nPETRONAS Primax 95 with Pro-Drive: RM$PRICE\\nPETRONAS Primax 97 with Pro-Race: RM$RON97\\nPETRONAS Dynamic Diesel Euro 5 with Pro-Drive: RM$DIESEL\"}" \
+               -d "{\"content\": \"Latest Fuel Prices:\\nPETRONAS Primax 95 with Pro-Drive: RM$RON95\\nPETRONAS Primax 97 with Pro-Race: RM$RON97\\nPETRONAS Dynamic Diesel Euro 5 with Pro-Drive: RM$DIESEL\"}" \
                $DISCORD_WEBHOOK_URL
