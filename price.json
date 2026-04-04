@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-04",
-  "RON95": {
-    "price": 3.87,
-    "unit": "RM/litre"
-  },
-  "RON97": {
-    "price": 4.95,
-    "unit": "RM/litre"
-  },
-  "Diesel": {
-    "price": 6.02,
-    "unit": "RM/litre"
-  },
-  "source": "https://www.setel.com/latest-fuel-prices-malaysia"
+    "last_updated": "2026-04-04",
+    "RON95": {
+        "price": 3.87,
+        "unit": "RM/litre"
+    },
+    "RON97": {
+        "price": 4.95,
+        "unit": "RM/litre"
+    },
+    "Diesel": {
+        "price": 6.02,
+        "unit": "RM/litre"
+    },
+    "source": "https://www.setel.com/latest-fuel-prices-malaysia"
 }
