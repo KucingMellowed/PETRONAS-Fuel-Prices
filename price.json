@@ -11,5 +11,6 @@
     "Diesel": {
         "price": 6.02,
         "unit": "RM/litre"
-    }
+    },
+    "source": "https://www.setel.com/latest-fuel-prices-malaysia"
 }
