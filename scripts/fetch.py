@@ -34,8 +34,7 @@ data = {
     "Diesel": {
         "price": extract_price("Diesel B10/B20"),
         "unit": "RM/litre"
-    },
-    "source": URL
+    }
 }
 
 with open("price.json", "w") as f:
