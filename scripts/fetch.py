@@ -38,7 +38,7 @@ data = {
     "source": URL
 }
 
-with open("fuel.json", "w") as f:
+with open("price.json", "w") as f:
     json.dump(data, f, indent=4)
 
 print("Updated fuel.json")
