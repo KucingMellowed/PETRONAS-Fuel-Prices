@@ -32,7 +32,7 @@ data = {
         "unit": "RM/litre"
     },
     "Diesel": {
-        "price": extract_price("Diesel"),
+        "price": extract_price("Diesel B10/B20"),
         "unit": "RM/litre"
     },
     "source": URL
