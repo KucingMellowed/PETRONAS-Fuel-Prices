@@ -41,10 +41,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          date=$(jq -r '.last_updated' price.json)
           RON95=$(jq -r '.RON95.Price' price.json)
           RON97=$(jq -r '.RON97.Price' price.json)
           DIESEL=$(jq -r '.Diesel.Price' price.json)
           curl -H "Content-Type: application/json" \
                -X POST \
-               -d "{\"content\": \"Latest Fuel Prices:\\nPETRONAS Primax 95 with Pro-Drive: RM$RON95\\nPETRONAS Primax 97 with Pro-Race: RM$RON97\\nPETRONAS Dynamic Diesel Euro 5 with Pro-Drive: RM$DIESEL\"}" \
+               -d "{\"content\": \"Fuel Prices as of $date:\\nPETRONAS Primax 95 with Pro-Drive: RM$RON95\\nPETRONAS Primax 97 with Pro-Race: RM$RON97\\nPETRONAS Dynamic Diesel Euro 5 with Pro-Drive: RM$DIESEL\"}" \
                $DISCORD_WEBHOOK_URL
