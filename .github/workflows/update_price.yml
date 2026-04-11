@@ -5,8 +5,8 @@ env:
 
 on:
   schedule:
-  # Runs every Wednesday at 7AM Malaysia Time (23:00 UTC Tuesday)
-    - cron: "0 23 * * Tue"
+  # Runs every Thursday at 7AM Malaysia Time (23:00 UTC Wednesday)
+    - cron: "0 23 * * Wed"
   workflow_dispatch:
 
 jobs:
