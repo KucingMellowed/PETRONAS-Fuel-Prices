@@ -1,15 +1,15 @@
 {
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-15",
     "RON95": {
-        "Price": 3.37,
+        "Price": 3.42,
         "Unit": "RM/litre"
     },
     "RON97": {
-        "Price": 3.37,
+        "Price": 3.42,
         "Unit": "RM/litre"
     },
     "Diesel": {
-        "Price": 3.97,
+        "Price": 4.07,
         "Unit": "RM/litre"
     }
 }
